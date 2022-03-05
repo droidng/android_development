@@ -13,7 +13,7 @@ from utils import (
     read_lsdump_paths)
 
 
-PRODUCTS_DEFAULT = ['aosp_arm', 'aosp_arm64', 'aosp_x86', 'aosp_x86_64']
+PRODUCTS_DEFAULT = ['materium_arm', 'materium_arm64', 'materium_x86', 'materium_x86_64']
 
 PREBUILTS_ABI_DUMPS_DEFAULT = os.path.join(AOSP_DIR, 'prebuilts', 'abi-dumps')
 
