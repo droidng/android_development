@@ -13,7 +13,7 @@ from utils import (
     read_lsdump_paths)
 
 
-PRODUCTS_DEFAULT = ['materium_arm', 'materium_arm64', 'materium_x86', 'materium_x86_64']
+PRODUCTS_DEFAULT = ['ng_gsi_arm', 'ng_gsi_arm64', 'ng_gsi_x86', 'ng_gsi_x86_64']
 
 PREBUILTS_ABI_DUMPS_DEFAULT = os.path.join(AOSP_DIR, 'prebuilts', 'abi-dumps')
 
